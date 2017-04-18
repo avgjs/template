@@ -41,7 +41,7 @@ module.exports = {
       { from: /^\/libs\/avg\.min.js$/, to: '/node_modules/avg-core/dist/avg.js' },
       ]
     },
-    host: '0.0.0.0',
+    host: '127.0.0.1',
     port: 6600,
     hot: true,
     // inline: true,

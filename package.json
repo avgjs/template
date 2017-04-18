@@ -8,7 +8,7 @@
   },
   "homepage": "https://avgjs.org/",
   "scripts": {
-    "dev": "webpack-dev-server --config webpack.dev.config.js --progress --colors --devtool source-map --host 0.0.0.0 --inline --hot --open",
+    "dev": "webpack-dev-server --config webpack.dev.config.js --progress --colors --devtool source-map --host 127.0.0.1 --inline --hot --open",
     "dist": "webpack -p --config webpack.config.js --progress --colors"
   },
   "license": "Apache-2.0",
